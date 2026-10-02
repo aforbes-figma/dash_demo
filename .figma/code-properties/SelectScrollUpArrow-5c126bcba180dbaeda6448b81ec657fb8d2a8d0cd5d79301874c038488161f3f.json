@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "SelectScrollUpArrow",
+    "filePath": "node_modules/@base-ui/react/select/scroll-up-arrow/SelectScrollUpArrow.mjs"
+  },
+  "codeProperties": {
+    "keepMounted": {
+      "type": "boolean",
+      "name": "Keep Mounted"
+    }
+  }
+}

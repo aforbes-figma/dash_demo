@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "MenuRadioItemIndicator",
+    "filePath": "node_modules/@base-ui/react/menu/radio-item-indicator/MenuRadioItemIndicator.mjs"
+  },
+  "codeProperties": {
+    "keepMounted": {
+      "type": "boolean",
+      "name": "Keep Mounted",
+      "defaultValue": false,
+      "description": "Whether to keep the indicator mounted in the DOM when not checked."
+    }
+  }
+}

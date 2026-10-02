@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "SliderThumb",
+    "filePath": "node_modules/@base-ui/react/slider/thumb/SliderThumb.mjs"
+  },
+  "codeProperties": {
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false
+    }
+  }
+}

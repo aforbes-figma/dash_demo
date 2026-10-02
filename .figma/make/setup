@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+# First-open setup: system-level dependencies. Cached after the first run.
+# This is a plain Next.js + npm project, so the only system requirement is a
+# working Node.js / npm toolchain. Nothing to install; just sanity-check it.
+set -euo pipefail
+
+if ! command -v node >/dev/null 2>&1; then
+  echo "setup: node is not installed or not on PATH" >&2
+  exit 1
+fi
+
+if ! command -v npm >/dev/null 2>&1; then
+  echo "setup: npm is not installed or not on PATH" >&2
+  exit 1
+fi
+
+echo "setup: node $(node -v), npm $(npm -v) — ok"

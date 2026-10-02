@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "SelectScrollDownArrow",
+    "filePath": "node_modules/@base-ui/react/select/scroll-down-arrow/SelectScrollDownArrow.mjs"
+  },
+  "codeProperties": {
+    "keepMounted": {
+      "type": "boolean",
+      "name": "Keep Mounted"
+    }
+  }
+}

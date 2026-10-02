@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "NavigationMenuItem",
+    "filePath": "node_modules/@base-ui/react/navigation-menu/item/NavigationMenuItem.mjs"
+  },
+  "codeProperties": {
+    "value": {
+      "type": "string",
+      "name": "Value",
+      "description": "The unique value identifying this navigation menu item."
+    }
+  }
+}

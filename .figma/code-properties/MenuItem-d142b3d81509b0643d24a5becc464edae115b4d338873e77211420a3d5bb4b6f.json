@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "MenuItem",
+    "filePath": "node_modules/@base-ui/react/menu/item/MenuItem.mjs"
+  },
+  "codeProperties": {
+    "label": {
+      "type": "string",
+      "name": "Label",
+      "description": "The label for the menu item, used for typeahead matching."
+    },
+    "nativeButton": {
+      "type": "boolean",
+      "name": "Native Button",
+      "defaultValue": false,
+      "description": "Whether the menu item renders as a native button element."
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false,
+      "description": "Whether the menu item is disabled."
+    },
+    "closeOnClick": {
+      "type": "boolean",
+      "name": "Close On Click",
+      "defaultValue": true,
+      "description": "Whether the menu closes when this item is clicked."
+    }
+  }
+}

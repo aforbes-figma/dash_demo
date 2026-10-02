@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "MenuPortal",
+    "filePath": "node_modules/@base-ui/react/menu/portal/MenuPortal.mjs"
+  },
+  "codeProperties": {
+    "keepMounted": {
+      "type": "boolean",
+      "name": "Keep Mounted",
+      "defaultValue": false,
+      "description": "Whether the portal content remains mounted when the menu is closed."
+    }
+  }
+}

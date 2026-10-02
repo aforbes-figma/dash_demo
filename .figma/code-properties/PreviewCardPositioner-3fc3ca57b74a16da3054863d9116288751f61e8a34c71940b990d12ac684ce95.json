@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "PreviewCardPositioner",
+    "filePath": "node_modules/@base-ui/react/preview-card/positioner/PreviewCardPositioner.mjs"
+  },
+  "codeProperties": {
+    "positionMethod": {
+      "type": "string",
+      "name": "Position Method",
+      "description": "The CSS position method to use for the positioner element.",
+      "defaultValue": "absolute",
+      "options": [
+        "absolute",
+        "fixed"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "absolute": "Absolute",
+          "fixed": "Fixed"
+        }
+      }
+    },
+    "side": {
+      "type": "string",
+      "name": "Side",
+      "description": "Which side of the anchor element to place the popup on.",
+      "defaultValue": "bottom",
+      "options": [
+        "top",
+        "right",
+        "bottom",
+        "left"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "top": "Top",
+          "right": "Right",
+          "bottom": "Bottom",
+          "left": "Left"
+        }
+      }
+    },
+    "align": {
+      "type": "string",
+      "name": "Align",
+      "description": "How to align the popup relative to the specified side.",
+      "defaultValue": "center",
+      "options": [
+        "start",
+        "center",
+        "end"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "start": "Start",
+          "center": "Center",
+          "end": "End"
+        }
+      }
+    },
+    "sideOffset": {
+      "type": "number",
+      "name": "Side Offset",
+      "description": "The distance in pixels between the popup and the anchor element.",
+      "defaultValue": 0
+    },
+    "alignOffset": {
+      "type": "number",
+      "name": "Align Offset",
+      "description": "The offset in pixels along the alignment axis.",
+      "defaultValue": 0
+    },
+    "collisionPadding": {
+      "type": "number",
+      "name": "Collision Padding",
+      "description": "The padding in pixels between the popup and the collision boundary.",
+      "defaultValue": 5
+    },
+    "arrowPadding": {
+      "type": "number",
+      "name": "Arrow Padding",
+      "description": "The padding in pixels between the arrow and the edges of the popup.",
+      "defaultValue": 5
+    },
+    "sticky": {
+      "type": "boolean",
+      "name": "Sticky",
+      "description": "Whether to keep the popup in view when the anchor is scrolled out of view.",
+      "defaultValue": false
+    },
+    "disableAnchorTracking": {
+      "type": "boolean",
+      "name": "Disable Anchor Tracking",
+      "description": "Whether to disable the anchor tracking, which updates the position of the popup when the anchor moves.",
+      "defaultValue": false
+    }
+  }
+}

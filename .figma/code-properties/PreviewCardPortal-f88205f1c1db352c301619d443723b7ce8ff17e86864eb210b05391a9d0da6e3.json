@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "PreviewCardPortal",
+    "filePath": "node_modules/@base-ui/react/preview-card/portal/PreviewCardPortal.mjs"
+  },
+  "codeProperties": {
+    "keepMounted": {
+      "type": "boolean",
+      "name": "Keep Mounted",
+      "description": "Whether to keep the portal mounted in the DOM when the popup is closed.",
+      "defaultValue": false
+    }
+  }
+}

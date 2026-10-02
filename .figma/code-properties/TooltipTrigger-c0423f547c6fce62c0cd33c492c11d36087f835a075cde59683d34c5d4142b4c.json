@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "TooltipTrigger",
+    "filePath": "node_modules/@base-ui/react/tooltip/trigger/TooltipTrigger.mjs"
+  },
+  "codeProperties": {
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the tooltip trigger is disabled."
+    },
+    "delay": {
+      "type": "number",
+      "name": "Delay",
+      "description": "The delay in milliseconds before the tooltip opens on hover."
+    },
+    "closeDelay": {
+      "type": "number",
+      "name": "Close Delay",
+      "description": "The delay in milliseconds before the tooltip closes on hover out."
+    },
+    "closeOnClick": {
+      "type": "boolean",
+      "name": "Close On Click",
+      "description": "Whether the tooltip closes when the trigger is clicked.",
+      "defaultValue": true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ComboboxValue",
+    "filePath": "node_modules/@base-ui/react/combobox/value/ComboboxValue.mjs"
+  },
+  "codeProperties": {
+    "placeholder": {
+      "type": "string",
+      "name": "Placeholder",
+      "description": "The placeholder text to display when no value is selected."
+    }
+  }
+}

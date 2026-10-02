@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "NavigationMenu",
+    "filePath": "node_modules/@base-ui/react/navigation-menu/index.mjs"
+  },
+  "codeProperties": {
+    "orientation": {
+      "type": "string",
+      "name": "Orientation",
+      "description": "The orientation of the navigation menu.",
+      "defaultValue": "horizontal",
+      "options": [
+        "horizontal",
+        "vertical"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "horizontal": "Horizontal",
+          "vertical": "Vertical"
+        }
+      }
+    },
+    "openOnHover": {
+      "type": "boolean",
+      "name": "Open On Hover",
+      "description": "Whether menu items open on hover.",
+      "defaultValue": true
+    },
+    "delay": {
+      "type": "number",
+      "name": "Open Delay",
+      "description": "Delay in milliseconds before opening a menu item.",
+      "defaultValue": 100
+    },
+    "closeDelay": {
+      "type": "number",
+      "name": "Close Delay",
+      "description": "Delay in milliseconds before closing a menu item.",
+      "defaultValue": 300
+    },
+    "modal": {
+      "type": "boolean",
+      "name": "Modal",
+      "description": "Whether the navigation menu is modal.",
+      "defaultValue": false
+    }
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "NumberField",
+    "filePath": "node_modules/@base-ui/react/number-field/index.mjs"
+  },
+  "codeProperties": {
+    "value": {
+      "type": "number",
+      "name": "Value",
+      "description": "The current value of the number field (controlled)."
+    },
+    "defaultValue": {
+      "type": "number",
+      "name": "Default Value",
+      "description": "The default value of the number field (uncontrolled)."
+    },
+    "min": {
+      "type": "number",
+      "name": "Min",
+      "description": "The minimum value allowed."
+    },
+    "max": {
+      "type": "number",
+      "name": "Max",
+      "description": "The maximum value allowed."
+    },
+    "step": {
+      "type": "number",
+      "name": "Step",
+      "description": "The step amount for increment/decrement.",
+      "defaultValue": 1
+    },
+    "largeStep": {
+      "type": "number",
+      "name": "Large Step",
+      "description": "The large step amount when holding Shift.",
+      "defaultValue": 10
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the number field is disabled.",
+      "defaultValue": false
+    },
+    "readOnly": {
+      "type": "boolean",
+      "name": "Read Only",
+      "description": "Whether the number field is read-only.",
+      "defaultValue": false
+    },
+    "required": {
+      "type": "boolean",
+      "name": "Required",
+      "description": "Whether the number field is required.",
+      "defaultValue": false
+    },
+    "invalid": {
+      "type": "boolean",
+      "name": "Invalid",
+      "description": "Whether the number field is in an invalid state.",
+      "defaultValue": false
+    },
+    "allowWheelScrub": {
+      "type": "boolean",
+      "name": "Allow Wheel Scrub",
+      "description": "Whether the value can be changed with the mouse wheel.",
+      "defaultValue": false
+    }
+  }
+}

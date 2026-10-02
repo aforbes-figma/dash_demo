@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ToastRoot",
+    "filePath": "node_modules/@base-ui/react/toast/root/ToastRoot.mjs"
+  },
+  "codeProperties": {
+    "swipeDirection": {
+      "name": "Swipe Direction",
+      "description": "The direction(s) in which the toast can be swiped to dismiss.",
+      "type": "string",
+      "options": [
+        "up",
+        "down",
+        "left",
+        "right"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "up": "Up",
+          "down": "Down",
+          "left": "Left",
+          "right": "Right"
+        }
+      }
+    }
+  }
+}

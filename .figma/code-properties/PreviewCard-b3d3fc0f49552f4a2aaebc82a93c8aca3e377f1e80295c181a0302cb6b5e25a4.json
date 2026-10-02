@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "PreviewCard",
+    "filePath": "node_modules/@base-ui/react/preview-card/index.mjs"
+  },
+  "codeProperties": {
+    "defaultOpen": {
+      "type": "boolean",
+      "name": "Default Open",
+      "description": "Whether the preview card is open by default (uncontrolled).",
+      "defaultValue": false
+    },
+    "openOnHover": {
+      "type": "boolean",
+      "name": "Open On Hover",
+      "description": "Whether the preview card opens on hover.",
+      "defaultValue": true
+    },
+    "delay": {
+      "type": "number",
+      "name": "Open Delay",
+      "description": "Delay in milliseconds before the preview card opens.",
+      "defaultValue": 600
+    },
+    "closeDelay": {
+      "type": "number",
+      "name": "Close Delay",
+      "description": "Delay in milliseconds before the preview card closes.",
+      "defaultValue": 300
+    }
+  }
+}

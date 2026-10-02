@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "DirectionProvider",
+    "filePath": "node_modules/@base-ui/react/direction-provider/DirectionProvider.mjs"
+  },
+  "codeProperties": {
+    "direction": {
+      "type": "string",
+      "name": "Direction",
+      "description": "The text direction for Base UI components.",
+      "defaultValue": "ltr",
+      "options": [
+        "ltr",
+        "rtl"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "ltr": "Left to Right",
+          "rtl": "Right to Left"
+        }
+      }
+    }
+  }
+}

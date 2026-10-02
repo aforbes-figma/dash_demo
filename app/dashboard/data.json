@@ -1,0 +1,218 @@
+[
+  {
+    "id": 1,
+    "account": "Acme Corporation",
+    "dealType": "New Business",
+    "stage": "Closed Won",
+    "amount": "$82,000",
+    "commission": "$8,200",
+    "rep": "Alex Morgan"
+  },
+  {
+    "id": 2,
+    "account": "Globex Industries",
+    "dealType": "Expansion",
+    "stage": "Closed Won",
+    "amount": "$145,000",
+    "commission": "$14,500",
+    "rep": "Priya Patel"
+  },
+  {
+    "id": 3,
+    "account": "Initech Software",
+    "dealType": "Upsell",
+    "stage": "Invoiced",
+    "amount": "$36,500",
+    "commission": "$3,650",
+    "rep": "Sam Chen"
+  },
+  {
+    "id": 4,
+    "account": "Umbrella Health",
+    "dealType": "New Business",
+    "stage": "Closed Won",
+    "amount": "$210,000",
+    "commission": "$21,000",
+    "rep": "Jordan Lee"
+  },
+  {
+    "id": 5,
+    "account": "Soylent Foods",
+    "dealType": "Renewal",
+    "stage": "Closed Won",
+    "amount": "$54,000",
+    "commission": "$5,400",
+    "rep": "Alex Morgan"
+  },
+  {
+    "id": 6,
+    "account": "Stark Manufacturing",
+    "dealType": "Expansion",
+    "stage": "Onboarding",
+    "amount": "$178,000",
+    "commission": "$17,800",
+    "rep": "Priya Patel"
+  },
+  {
+    "id": 7,
+    "account": "Wayne Enterprises",
+    "dealType": "New Business",
+    "stage": "Closed Won",
+    "amount": "$320,000",
+    "commission": "$32,000",
+    "rep": "Jordan Lee"
+  },
+  {
+    "id": 8,
+    "account": "Wonka Logistics",
+    "dealType": "Upsell",
+    "stage": "Closed Won",
+    "amount": "$42,000",
+    "commission": "$4,200",
+    "rep": "Sam Chen"
+  },
+  {
+    "id": 9,
+    "account": "Hooli Cloud",
+    "dealType": "New Business",
+    "stage": "Invoiced",
+    "amount": "$96,500",
+    "commission": "$9,650",
+    "rep": "Alex Morgan"
+  },
+  {
+    "id": 10,
+    "account": "Pied Piper Data",
+    "dealType": "Expansion",
+    "stage": "Closed Won",
+    "amount": "$128,000",
+    "commission": "$12,800",
+    "rep": "Priya Patel"
+  },
+  {
+    "id": 11,
+    "account": "Cyberdyne Systems",
+    "dealType": "New Business",
+    "stage": "Closed Won",
+    "amount": "$265,000",
+    "commission": "$26,500",
+    "rep": "Jordan Lee"
+  },
+  {
+    "id": 12,
+    "account": "Vandelay Imports",
+    "dealType": "Renewal",
+    "stage": "Closed Won",
+    "amount": "$61,000",
+    "commission": "$6,100",
+    "rep": "Sam Chen"
+  },
+  {
+    "id": 13,
+    "account": "Gekko Capital",
+    "dealType": "Upsell",
+    "stage": "Onboarding",
+    "amount": "$88,000",
+    "commission": "$8,800",
+    "rep": "Alex Morgan"
+  },
+  {
+    "id": 14,
+    "account": "Nakatomi Trading",
+    "dealType": "New Business",
+    "stage": "Closed Won",
+    "amount": "$156,000",
+    "commission": "$15,600",
+    "rep": "Priya Patel"
+  },
+  {
+    "id": 15,
+    "account": "Tyrell Robotics",
+    "dealType": "Expansion",
+    "stage": "Closed Won",
+    "amount": "$199,000",
+    "commission": "$19,900",
+    "rep": "Jordan Lee"
+  },
+  {
+    "id": 16,
+    "account": "Oscorp Labs",
+    "dealType": "New Business",
+    "stage": "Invoiced",
+    "amount": "$73,500",
+    "commission": "$7,350",
+    "rep": "Sam Chen"
+  },
+  {
+    "id": 17,
+    "account": "Massive Dynamic",
+    "dealType": "Expansion",
+    "stage": "Closed Won",
+    "amount": "$412,000",
+    "commission": "$41,200",
+    "rep": "Alex Morgan"
+  },
+  {
+    "id": 18,
+    "account": "Bluth Company",
+    "dealType": "Renewal",
+    "stage": "Closed Won",
+    "amount": "$48,000",
+    "commission": "$4,800",
+    "rep": "Priya Patel"
+  },
+  {
+    "id": 19,
+    "account": "Dunder Mifflin",
+    "dealType": "Upsell",
+    "stage": "Onboarding",
+    "amount": "$39,000",
+    "commission": "$3,900",
+    "rep": "Jordan Lee"
+  },
+  {
+    "id": 20,
+    "account": "Prestige Worldwide",
+    "dealType": "New Business",
+    "stage": "Closed Won",
+    "amount": "$187,000",
+    "commission": "$18,700",
+    "rep": "Sam Chen"
+  },
+  {
+    "id": 21,
+    "account": "Sterling Cooper",
+    "dealType": "Expansion",
+    "stage": "Closed Won",
+    "amount": "$134,000",
+    "commission": "$13,400",
+    "rep": "Alex Morgan"
+  },
+  {
+    "id": 22,
+    "account": "Wernham Hogg",
+    "dealType": "Renewal",
+    "stage": "Invoiced",
+    "amount": "$57,500",
+    "commission": "$5,750",
+    "rep": "Priya Patel"
+  },
+  {
+    "id": 23,
+    "account": "Monarch Beverages",
+    "dealType": "New Business",
+    "stage": "Closed Won",
+    "amount": "$243,000",
+    "commission": "$24,300",
+    "rep": "Jordan Lee"
+  },
+  {
+    "id": 24,
+    "account": "Virtucon Energy",
+    "dealType": "Upsell",
+    "stage": "Closed Won",
+    "amount": "$91,000",
+    "commission": "$9,100",
+    "rep": "Sam Chen"
+  }
+]

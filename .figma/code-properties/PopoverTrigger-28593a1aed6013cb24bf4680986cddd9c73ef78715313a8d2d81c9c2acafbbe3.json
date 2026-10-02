@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "PopoverTrigger",
+    "filePath": "node_modules/@base-ui/react/popover/trigger/PopoverTrigger.mjs"
+  },
+  "codeProperties": {
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false
+    },
+    "nativeButton": {
+      "type": "boolean",
+      "name": "Native Button",
+      "defaultValue": true
+    },
+    "openOnHover": {
+      "type": "boolean",
+      "name": "Open On Hover",
+      "defaultValue": false
+    },
+    "delay": {
+      "type": "number",
+      "name": "Delay"
+    },
+    "closeDelay": {
+      "type": "number",
+      "name": "Close Delay",
+      "defaultValue": 0
+    }
+  }
+}

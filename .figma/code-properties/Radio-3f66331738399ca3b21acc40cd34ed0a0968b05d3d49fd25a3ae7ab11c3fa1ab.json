@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Radio",
+    "filePath": "node_modules/@base-ui/react/radio/index.mjs"
+  },
+  "codeProperties": {
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the radio button is disabled.",
+      "defaultValue": false
+    },
+    "readOnly": {
+      "type": "boolean",
+      "name": "Read Only",
+      "description": "Whether the radio button is read-only.",
+      "defaultValue": false
+    }
+  }
+}

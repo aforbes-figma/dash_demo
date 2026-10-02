@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Select",
+    "filePath": "node_modules/@base-ui/react/select/index.mjs"
+  },
+  "codeProperties": {
+    "open": {
+      "type": "boolean",
+      "name": "Open",
+      "description": "Controls whether the select dropdown is open."
+    },
+    "defaultOpen": {
+      "type": "boolean",
+      "name": "Default Open",
+      "description": "Whether the select is initially open (uncontrolled).",
+      "defaultValue": false
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the select is disabled.",
+      "defaultValue": false
+    },
+    "readOnly": {
+      "type": "boolean",
+      "name": "Read Only",
+      "description": "Whether the select is read-only.",
+      "defaultValue": false
+    },
+    "modal": {
+      "type": "boolean",
+      "name": "Modal",
+      "description": "Whether the select popup is modal, preventing interaction with the rest of the page.",
+      "defaultValue": true
+    },
+    "alignItemToTrigger": {
+      "type": "boolean",
+      "name": "Align Item to Trigger",
+      "description": "Whether the selected item inside the popup is aligned to the trigger element.",
+      "defaultValue": true
+    }
+  }
+}

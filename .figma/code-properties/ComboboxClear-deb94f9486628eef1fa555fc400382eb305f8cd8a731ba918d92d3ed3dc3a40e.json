@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ComboboxClear",
+    "filePath": "node_modules/@base-ui/react/combobox/clear/ComboboxClear.mjs"
+  },
+  "codeProperties": {
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false
+    },
+    "nativeButton": {
+      "type": "boolean",
+      "name": "Native Button",
+      "defaultValue": true
+    },
+    "keepMounted": {
+      "type": "boolean",
+      "name": "Keep Mounted",
+      "defaultValue": false
+    }
+  }
+}

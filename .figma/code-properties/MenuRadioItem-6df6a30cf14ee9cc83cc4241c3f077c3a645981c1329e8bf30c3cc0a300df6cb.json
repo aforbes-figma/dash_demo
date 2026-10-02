@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "MenuRadioItem",
+    "filePath": "node_modules/@base-ui/react/menu/radio-item/MenuRadioItem.mjs"
+  },
+  "codeProperties": {
+    "nativeButton": {
+      "type": "boolean",
+      "name": "Native Button",
+      "defaultValue": false,
+      "description": "Whether to render as a native button element."
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false,
+      "description": "Whether the radio item is disabled."
+    },
+    "closeOnClick": {
+      "type": "boolean",
+      "name": "Close On Click",
+      "defaultValue": false,
+      "description": "Whether the menu closes when this item is clicked."
+    }
+  }
+}

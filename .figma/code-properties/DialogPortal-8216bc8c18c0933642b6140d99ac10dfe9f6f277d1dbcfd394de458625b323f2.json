@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "DialogPortal",
+    "filePath": "node_modules/@base-ui/react/dialog/portal/DialogPortal.mjs"
+  },
+  "codeProperties": {
+    "keepMounted": {
+      "type": "boolean",
+      "name": "Keep Mounted",
+      "description": "Whether to keep the portal mounted in the DOM when closed.",
+      "defaultValue": false
+    }
+  }
+}

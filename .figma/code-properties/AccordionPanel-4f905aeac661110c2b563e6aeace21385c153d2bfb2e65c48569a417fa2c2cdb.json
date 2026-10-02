@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "AccordionPanel",
+    "filePath": "node_modules/@base-ui/react/accordion/panel/AccordionPanel.mjs"
+  },
+  "codeProperties": {
+    "hiddenUntilFound": {
+      "type": "boolean",
+      "name": "Hidden Until Found",
+      "description": "Whether the panel uses the browser's built-in find-in-page search to reveal its contents when hidden."
+    },
+    "keepMounted": {
+      "type": "boolean",
+      "name": "Keep Mounted",
+      "description": "Whether to keep the panel mounted in the DOM when closed."
+    }
+  }
+}

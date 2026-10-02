@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Toggle",
+    "filePath": "node_modules/@base-ui/react/toggle/index.mjs"
+  },
+  "codeProperties": {
+    "pressed": {
+      "type": "boolean",
+      "name": "Pressed",
+      "description": "Whether the toggle is pressed (controlled)."
+    },
+    "defaultPressed": {
+      "type": "boolean",
+      "name": "Default Pressed",
+      "description": "Whether the toggle is pressed by default (uncontrolled).",
+      "defaultValue": false
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the toggle is disabled.",
+      "defaultValue": false
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "NumberFieldScrubArea",
+    "filePath": "node_modules/@base-ui/react/number-field/scrub-area/NumberFieldScrubArea.mjs"
+  },
+  "codeProperties": {
+    "direction": {
+      "type": "string",
+      "name": "Direction",
+      "defaultValue": "horizontal",
+      "options": [
+        "horizontal",
+        "vertical"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "horizontal": "Horizontal",
+          "vertical": "Vertical"
+        }
+      }
+    },
+    "pixelSensitivity": {
+      "type": "number",
+      "name": "Pixel Sensitivity",
+      "defaultValue": 2
+    }
+  }
+}

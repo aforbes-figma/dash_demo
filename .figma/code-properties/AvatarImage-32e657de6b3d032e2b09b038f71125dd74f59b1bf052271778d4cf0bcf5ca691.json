@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "AvatarImage",
+    "filePath": "node_modules/@base-ui/react/avatar/image/AvatarImage.mjs"
+  },
+  "codeProperties": {
+    "keepMounted": {
+      "type": "boolean",
+      "name": "Keep Mounted",
+      "description": "Whether to keep the image element mounted in the DOM even when not loaded.",
+      "defaultValue": false
+    }
+  }
+}

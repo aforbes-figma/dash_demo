@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "MenuCheckboxItem",
+    "filePath": "node_modules/@base-ui/react/menu/checkbox-item/MenuCheckboxItem.mjs"
+  },
+  "codeProperties": {
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false
+    },
+    "closeOnClick": {
+      "type": "boolean",
+      "name": "Close On Click",
+      "defaultValue": false
+    },
+    "defaultChecked": {
+      "type": "boolean",
+      "name": "Default Checked"
+    },
+    "nativeButton": {
+      "type": "boolean",
+      "name": "Native Button",
+      "defaultValue": false
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "TooltipPortal",
+    "filePath": "node_modules/@base-ui/react/tooltip/portal/TooltipPortal.mjs"
+  },
+  "codeProperties": {
+    "keepMounted": {
+      "type": "boolean",
+      "name": "Keep Mounted",
+      "description": "Whether to keep the portal mounted in the DOM when the tooltip is not visible.",
+      "defaultValue": false
+    }
+  }
+}

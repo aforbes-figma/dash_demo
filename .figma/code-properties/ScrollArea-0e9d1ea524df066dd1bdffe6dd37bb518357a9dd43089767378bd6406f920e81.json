@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ScrollArea",
+    "filePath": "node_modules/@base-ui/react/scroll-area/index.mjs"
+  },
+  "codeProperties": {
+    "dir": {
+      "type": "string",
+      "name": "Direction",
+      "description": "The reading direction of the scroll area.",
+      "defaultValue": "ltr",
+      "options": [
+        "ltr",
+        "rtl"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "ltr": "Left to Right",
+          "rtl": "Right to Left"
+        }
+      }
+    }
+  }
+}

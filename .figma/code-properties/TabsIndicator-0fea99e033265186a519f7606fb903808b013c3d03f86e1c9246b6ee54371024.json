@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "TabsIndicator",
+    "filePath": "node_modules/@base-ui/react/tabs/indicator/TabsIndicator.mjs"
+  },
+  "codeProperties": {
+    "renderBeforeHydration": {
+      "type": "boolean",
+      "name": "Render Before Hydration",
+      "defaultValue": false
+    }
+  }
+}

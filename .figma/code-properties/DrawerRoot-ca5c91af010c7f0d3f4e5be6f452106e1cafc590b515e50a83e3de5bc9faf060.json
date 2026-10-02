@@ -1,0 +1,54 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "DrawerRoot",
+    "filePath": "node_modules/@base-ui/react/drawer/root/DrawerRoot.mjs"
+  },
+  "codeProperties": {
+    "defaultOpen": {
+      "type": "boolean",
+      "name": "Default Open",
+      "description": "Whether the drawer is initially open (uncontrolled).",
+      "defaultValue": false
+    },
+    "modal": {
+      "type": "boolean",
+      "name": "Modal",
+      "description": "Whether the drawer is modal.",
+      "defaultValue": true
+    },
+    "disablePointerDismissal": {
+      "type": "boolean",
+      "name": "Disable Pointer Dismissal",
+      "description": "Whether clicking outside the drawer dismisses it.",
+      "defaultValue": false
+    },
+    "swipeDirection": {
+      "type": "string",
+      "name": "Swipe Direction",
+      "description": "The direction the drawer can be swiped to dismiss.",
+      "defaultValue": "down",
+      "options": [
+        "down",
+        "up",
+        "left",
+        "right"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "down": "Down",
+          "up": "Up",
+          "left": "Left",
+          "right": "Right"
+        }
+      }
+    },
+    "snapToSequentialPoints": {
+      "type": "boolean",
+      "name": "Snap To Sequential Points",
+      "description": "Whether the drawer snaps to sequential snap points only.",
+      "defaultValue": false
+    }
+  }
+}

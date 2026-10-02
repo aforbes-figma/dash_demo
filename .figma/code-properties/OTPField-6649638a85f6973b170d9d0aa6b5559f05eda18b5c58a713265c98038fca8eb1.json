@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "OTPField",
+    "filePath": "node_modules/@base-ui/react/otp-field/index.mjs"
+  },
+  "codeProperties": {
+    "length": {
+      "type": "number",
+      "name": "Length",
+      "description": "The number of OTP input slots.",
+      "defaultValue": 6
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the OTP field is disabled.",
+      "defaultValue": false
+    },
+    "required": {
+      "type": "boolean",
+      "name": "Required",
+      "description": "Whether the OTP field is required.",
+      "defaultValue": false
+    }
+  }
+}

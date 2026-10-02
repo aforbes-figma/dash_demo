@@ -1,0 +1,19 @@
+#!/usr/bin/env bash
+# Start the Next.js dev server. Runs for the whole session; killed on close.
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+cd "$SCRIPT_DIR/../.."
+
+# Load PORT from the env file (Next.js cannot read PORT from a .env itself,
+# so we pass it explicitly on the command line).
+set -a
+# shellcheck disable=SC1091
+source "$SCRIPT_DIR/env"
+set +a
+
+PORT="${PORT:-3000}"
+
+# Bind to 0.0.0.0 so the embedded browser preview can reach the server.
+# exec so signals (and the host's kill-on-close) reach the Next.js process.
+exec npx next dev -p "$PORT" -H 0.0.0.0

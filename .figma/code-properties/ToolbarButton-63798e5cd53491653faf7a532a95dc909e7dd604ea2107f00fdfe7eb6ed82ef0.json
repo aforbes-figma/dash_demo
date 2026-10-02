@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ToolbarButton",
+    "filePath": "node_modules/@base-ui/react/toolbar/button/ToolbarButton.mjs"
+  },
+  "codeProperties": {
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false
+    },
+    "focusableWhenDisabled": {
+      "type": "boolean",
+      "name": "Focusable When Disabled",
+      "description": "Whether the button remains focusable when disabled.",
+      "defaultValue": true
+    }
+  }
+}

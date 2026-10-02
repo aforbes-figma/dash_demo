@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "CollapsiblePanel",
+    "filePath": "node_modules/@base-ui/react/collapsible/panel/CollapsiblePanel.mjs"
+  },
+  "codeProperties": {
+    "hiddenUntilFound": {
+      "type": "boolean",
+      "name": "Hidden Until Found",
+      "description": "Whether the panel uses the browser's built-in find-on-page search to make its hidden content discoverable.",
+      "defaultValue": false
+    },
+    "keepMounted": {
+      "type": "boolean",
+      "name": "Keep Mounted",
+      "description": "Whether the panel remains mounted in the DOM when closed.",
+      "defaultValue": false
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ComboboxPortal",
+    "filePath": "node_modules/@base-ui/react/combobox/portal/ComboboxPortal.mjs"
+  },
+  "codeProperties": {
+    "keepMounted": {
+      "type": "boolean",
+      "name": "Keep Mounted",
+      "description": "Whether to keep the portal mounted in the DOM when the popup is closed.",
+      "defaultValue": false
+    }
+  }
+}

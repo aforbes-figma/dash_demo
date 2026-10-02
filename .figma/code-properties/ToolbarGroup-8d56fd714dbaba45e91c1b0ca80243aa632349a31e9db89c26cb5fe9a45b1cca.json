@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ToolbarGroup",
+    "filePath": "node_modules/@base-ui/react/toolbar/group/ToolbarGroup.mjs"
+  },
+  "codeProperties": {
+    "disabled": {
+      "name": "Disabled",
+      "description": "Whether the toolbar group and its items are disabled.",
+      "type": "boolean",
+      "defaultValue": false
+    }
+  }
+}

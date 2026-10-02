@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Meter",
+    "filePath": "node_modules/@base-ui/react/meter/index.mjs"
+  },
+  "codeProperties": {
+    "value": {
+      "type": "number",
+      "name": "Value",
+      "description": "The current value of the meter."
+    },
+    "min": {
+      "type": "number",
+      "name": "Min",
+      "description": "The minimum value of the meter.",
+      "defaultValue": 0
+    },
+    "max": {
+      "type": "number",
+      "name": "Max",
+      "description": "The maximum value of the meter.",
+      "defaultValue": 100
+    }
+  }
+}

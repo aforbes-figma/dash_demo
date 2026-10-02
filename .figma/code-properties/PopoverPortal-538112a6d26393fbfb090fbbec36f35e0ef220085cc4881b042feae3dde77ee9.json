@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "PopoverPortal",
+    "filePath": "node_modules/@base-ui/react/popover/portal/PopoverPortal.mjs"
+  },
+  "codeProperties": {
+    "keepMounted": {
+      "type": "boolean",
+      "name": "Keep Mounted",
+      "defaultValue": false
+    }
+  }
+}

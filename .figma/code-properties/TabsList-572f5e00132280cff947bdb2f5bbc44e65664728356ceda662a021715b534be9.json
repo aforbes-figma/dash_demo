@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "TabsList",
+    "filePath": "node_modules/@base-ui/react/tabs/list/TabsList.mjs"
+  },
+  "codeProperties": {
+    "activateOnFocus": {
+      "type": "boolean",
+      "name": "Activate On Focus",
+      "defaultValue": false
+    },
+    "loopFocus": {
+      "type": "boolean",
+      "name": "Loop Focus",
+      "defaultValue": true
+    }
+  }
+}

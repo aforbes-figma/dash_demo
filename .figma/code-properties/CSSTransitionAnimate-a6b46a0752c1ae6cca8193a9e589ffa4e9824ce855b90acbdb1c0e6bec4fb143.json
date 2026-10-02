@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "CSSTransitionAnimate",
+    "filePath": "node_modules/recharts/es6/animation/CSSTransitionAnimate.js"
+  },
+  "codeProperties": {
+    "begin": {
+      "type": "number",
+      "name": "Begin",
+      "description": "Delay before the animation starts, in milliseconds.",
+      "defaultValue": 0
+    },
+    "duration": {
+      "type": "number",
+      "name": "Duration",
+      "description": "Duration of the animation in milliseconds.",
+      "defaultValue": 1000
+    },
+    "easing": {
+      "type": "string",
+      "name": "Easing",
+      "description": "Easing function for the animation.",
+      "defaultValue": "ease",
+      "options": [
+        "ease",
+        "ease-in",
+        "ease-out",
+        "ease-in-out",
+        "linear"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "ease": "Ease",
+          "ease-in": "Ease In",
+          "ease-out": "Ease Out",
+          "ease-in-out": "Ease In Out",
+          "linear": "Linear"
+        }
+      }
+    },
+    "isActive": {
+      "type": "boolean",
+      "name": "Is Active",
+      "description": "Whether the animation is active.",
+      "defaultValue": true
+    },
+    "canBegin": {
+      "type": "boolean",
+      "name": "Can Begin",
+      "description": "Whether the animation is allowed to begin.",
+      "defaultValue": true
+    }
+  }
+}

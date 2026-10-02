@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "TooltipProvider",
+    "filePath": "node_modules/@base-ui/react/tooltip/provider/TooltipProvider.mjs"
+  },
+  "codeProperties": {
+    "delay": {
+      "type": "number",
+      "name": "Delay",
+      "description": "The delay in milliseconds before a tooltip opens."
+    },
+    "closeDelay": {
+      "type": "number",
+      "name": "Close Delay",
+      "description": "The delay in milliseconds before a tooltip closes."
+    },
+    "timeout": {
+      "type": "number",
+      "name": "Timeout",
+      "description": "The timeout in milliseconds for the instant phase after a tooltip becomes visible. Defaults to 400.",
+      "defaultValue": 400
+    }
+  }
+}

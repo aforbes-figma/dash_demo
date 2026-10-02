@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ComboboxTrigger",
+    "filePath": "node_modules/@base-ui/react/combobox/trigger/ComboboxTrigger.mjs"
+  },
+  "codeProperties": {
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the trigger button is disabled.",
+      "defaultValue": false
+    },
+    "nativeButton": {
+      "type": "boolean",
+      "name": "Native Button",
+      "description": "Whether to render the trigger as a native button element.",
+      "defaultValue": true
+    }
+  }
+}

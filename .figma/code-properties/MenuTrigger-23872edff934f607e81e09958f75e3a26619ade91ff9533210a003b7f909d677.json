@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "MenuTrigger",
+    "filePath": "node_modules/@base-ui/react/menu/trigger/MenuTrigger.mjs"
+  },
+  "codeProperties": {
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false,
+      "description": "Whether the trigger is disabled."
+    },
+    "nativeButton": {
+      "type": "boolean",
+      "name": "Native Button",
+      "defaultValue": true,
+      "description": "Whether to render as a native button element."
+    },
+    "delay": {
+      "type": "number",
+      "name": "Delay",
+      "defaultValue": 100,
+      "description": "Delay in milliseconds before the menu opens on hover."
+    },
+    "closeDelay": {
+      "type": "number",
+      "name": "Close Delay",
+      "defaultValue": 0,
+      "description": "Delay in milliseconds before the menu closes on hover."
+    }
+  }
+}

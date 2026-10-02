@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "AccordionTrigger",
+    "filePath": "node_modules/@base-ui/react/accordion/trigger/AccordionTrigger.mjs"
+  },
+  "codeProperties": {
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the trigger button is disabled."
+    },
+    "nativeButton": {
+      "type": "boolean",
+      "name": "Native Button",
+      "description": "Whether to render as a native <button> element.",
+      "defaultValue": true
+    }
+  }
+}

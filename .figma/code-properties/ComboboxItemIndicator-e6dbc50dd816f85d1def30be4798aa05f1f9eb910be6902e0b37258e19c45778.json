@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ComboboxItemIndicator",
+    "filePath": "node_modules/@base-ui/react/combobox/item-indicator/ComboboxItemIndicator.mjs"
+  },
+  "codeProperties": {
+    "keepMounted": {
+      "type": "boolean",
+      "name": "Keep Mounted",
+      "description": "Whether the indicator remains mounted when the item is not selected."
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ToggleGroup",
+    "filePath": "node_modules/@base-ui/react/toggle-group/index.mjs"
+  },
+  "codeProperties": {
+    "toggleMultiple": {
+      "type": "boolean",
+      "name": "Toggle Multiple",
+      "description": "Whether multiple toggles can be pressed at the same time.",
+      "defaultValue": false
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the toggle group is disabled.",
+      "defaultValue": false
+    },
+    "orientation": {
+      "type": "string",
+      "name": "Orientation",
+      "description": "The orientation of the toggle group.",
+      "defaultValue": "horizontal",
+      "options": [
+        "horizontal",
+        "vertical"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "horizontal": "Horizontal",
+          "vertical": "Vertical"
+        }
+      }
+    }
+  }
+}

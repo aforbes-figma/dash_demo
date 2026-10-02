@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "SelectPositioner",
+    "filePath": "node_modules/@base-ui/react/select/positioner/SelectPositioner.mjs"
+  },
+  "codeProperties": {
+    "side": {
+      "type": "string",
+      "name": "Side",
+      "options": [
+        "",
+        "top",
+        "bottom",
+        "left",
+        "right",
+        "inline-end",
+        "inline-start"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "": "Default",
+          "top": "Top",
+          "bottom": "Bottom",
+          "left": "Left",
+          "right": "Right",
+          "inline-end": "Inline End",
+          "inline-start": "Inline Start"
+        }
+      }
+    },
+    "align": {
+      "type": "string",
+      "name": "Align",
+      "options": [
+        "",
+        "start",
+        "center",
+        "end"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "": "Default",
+          "start": "Start",
+          "center": "Center",
+          "end": "End"
+        }
+      }
+    },
+    "sideOffset": {
+      "type": "number",
+      "name": "Side Offset"
+    },
+    "alignOffset": {
+      "type": "number",
+      "name": "Align Offset"
+    },
+    "collisionBoundary": {
+      "type": "string",
+      "name": "Collision Boundary",
+      "defaultValue": "clipping-ancestors"
+    },
+    "collisionPadding": {
+      "type": "number",
+      "name": "Collision Padding"
+    },
+    "arrowPadding": {
+      "type": "number",
+      "name": "Arrow Padding"
+    },
+    "sticky": {
+      "type": "boolean",
+      "name": "Sticky"
+    },
+    "disableAnchorTracking": {
+      "type": "boolean",
+      "name": "Disable Anchor Tracking"
+    },
+    "alignItemWithTrigger": {
+      "type": "boolean",
+      "name": "Align Item With Trigger",
+      "defaultValue": true
+    }
+  }
+}

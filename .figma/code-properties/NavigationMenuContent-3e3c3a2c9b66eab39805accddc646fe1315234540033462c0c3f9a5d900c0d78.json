@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "NavigationMenuContent",
+    "filePath": "node_modules/@base-ui/react/navigation-menu/content/NavigationMenuContent.mjs"
+  },
+  "codeProperties": {
+    "keepMounted": {
+      "type": "boolean",
+      "name": "Keep Mounted",
+      "description": "Whether to keep the content mounted in the DOM when not active.",
+      "defaultValue": false
+    }
+  }
+}

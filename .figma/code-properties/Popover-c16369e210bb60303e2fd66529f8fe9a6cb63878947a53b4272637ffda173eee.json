@@ -1,0 +1,32 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Popover",
+    "filePath": "node_modules/@base-ui/react/popover/index.mjs"
+  },
+  "codeProperties": {
+    "open": {
+      "type": "boolean",
+      "name": "Open",
+      "description": "Controls whether the popover is open."
+    },
+    "defaultOpen": {
+      "type": "boolean",
+      "name": "Default Open",
+      "description": "Whether the popover is initially open (uncontrolled).",
+      "defaultValue": false
+    },
+    "openOnHover": {
+      "type": "boolean",
+      "name": "Open on Hover",
+      "description": "Whether the popover opens when the trigger is hovered.",
+      "defaultValue": false
+    },
+    "animated": {
+      "type": "boolean",
+      "name": "Animated",
+      "description": "Whether the popover uses CSS animations/transitions.",
+      "defaultValue": true
+    }
+  }
+}

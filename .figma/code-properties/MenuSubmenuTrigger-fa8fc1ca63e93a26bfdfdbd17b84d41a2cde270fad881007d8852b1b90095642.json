@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "MenuSubmenuTrigger",
+    "filePath": "node_modules/@base-ui/react/menu/submenu-trigger/MenuSubmenuTrigger.mjs"
+  },
+  "codeProperties": {
+    "nativeButton": {
+      "type": "boolean",
+      "name": "Native Button",
+      "defaultValue": false,
+      "description": "Whether to render as a native button element."
+    },
+    "openOnHover": {
+      "type": "boolean",
+      "name": "Open On Hover",
+      "defaultValue": true,
+      "description": "Whether the submenu opens on hover."
+    },
+    "delay": {
+      "type": "number",
+      "name": "Delay",
+      "defaultValue": 100,
+      "description": "Delay in milliseconds before the submenu opens on hover."
+    },
+    "closeDelay": {
+      "type": "number",
+      "name": "Close Delay",
+      "defaultValue": 0,
+      "description": "Delay in milliseconds before the submenu closes on hover."
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false,
+      "description": "Whether the submenu trigger is disabled."
+    }
+  }
+}

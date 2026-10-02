@@ -1,0 +1,162 @@
+{
+  "pointAndEdit": {
+    "priorityPaths": {
+      "prefer": [
+        "app/**/*.tsx",
+        "app/**/*.ts",
+        "components/chart-area-interactive.tsx",
+        "components/data-table.tsx",
+        "components/nav-documents.tsx",
+        "components/nav-main.tsx",
+        "components/nav-secondary.tsx",
+        "components/nav-user.tsx",
+        "components/section-cards.tsx",
+        "components/site-header.tsx",
+        "components/app-sidebar.tsx"
+      ],
+      "deprioritize": [
+        "components/ui/**/*.tsx",
+        "components/theme-provider.tsx",
+        "hooks/**/*.ts",
+        "lib/**/*.ts"
+      ],
+      "exclude": [
+        "node_modules/**",
+        "app/globals.css",
+        "app/favicon.ico",
+        "app/dashboard/data.json",
+        "public/**",
+        ".next/**",
+        "out/**",
+        "**/*.figma.ts",
+        "**/*.figma.tsx",
+        "**/*.figma.js",
+        "**/*.figma.jsx",
+        "**/*.figma.template.*",
+        "eslint.config.mjs",
+        "postcss.config.mjs",
+        "next.config.ts",
+        "tsconfig.json",
+        ".prettierrc",
+        ".prettierignore",
+        "**/*.test.ts",
+        "**/*.test.tsx",
+        "**/*.spec.ts",
+        "**/*.spec.tsx"
+      ]
+    },
+    "libraryPaths": {
+      "local": [
+        "components/ui/**/*.tsx"
+      ],
+      "external": [
+        "node_modules/@base-ui/react/**",
+        "node_modules/lucide-react/**",
+        "node_modules/recharts/**",
+        "node_modules/class-variance-authority/**"
+      ]
+    },
+    "pathClassification": {
+      "classifier": "sonnet"
+    },
+    "exclusions": [
+      {
+        "glob": "node_modules/**",
+        "reason": "Third-party installed packages; not project source and must not be selected as a UI edit anchor."
+      },
+      {
+        "glob": "app/globals.css",
+        "reason": "Global stylesheet; not a component source anchor for point-and-edit."
+      },
+      {
+        "glob": "app/favicon.ico",
+        "reason": "Static asset, not UI source code."
+      },
+      {
+        "glob": "app/dashboard/data.json",
+        "reason": "Static data file, not a UI rendering source."
+      },
+      {
+        "glob": "public/**",
+        "reason": "Static assets served directly; not UI component source."
+      },
+      {
+        "glob": ".next/**",
+        "reason": "Next.js build output directory; generated, not source."
+      },
+      {
+        "glob": "out/**",
+        "reason": "Next.js static export output; generated, not source."
+      },
+      {
+        "glob": "**/*.figma.ts",
+        "reason": "Figma mapping files must not be selected as point-and-edit source anchors per classification rules."
+      },
+      {
+        "glob": "**/*.figma.tsx",
+        "reason": "Figma mapping files must not be selected as point-and-edit source anchors per classification rules."
+      },
+      {
+        "glob": "**/*.figma.js",
+        "reason": "Figma mapping files must not be selected as point-and-edit source anchors per classification rules."
+      },
+      {
+        "glob": "**/*.figma.jsx",
+        "reason": "Figma mapping files must not be selected as point-and-edit source anchors per classification rules."
+      },
+      {
+        "glob": "**/*.figma.template.*",
+        "reason": "Figma mapping template files must not be selected as point-and-edit source anchors per classification rules."
+      },
+      {
+        "glob": "eslint.config.mjs",
+        "reason": "ESLint tooling config; not UI source."
+      },
+      {
+        "glob": "postcss.config.mjs",
+        "reason": "PostCSS tooling config; not UI source."
+      },
+      {
+        "glob": "next.config.ts",
+        "reason": "Next.js framework config; not UI source."
+      },
+      {
+        "glob": "tsconfig.json",
+        "reason": "TypeScript compiler config; not UI source."
+      },
+      {
+        "glob": ".prettierrc",
+        "reason": "Formatter config; not UI source."
+      },
+      {
+        "glob": ".prettierignore",
+        "reason": "Formatter ignore file; not UI source."
+      },
+      {
+        "glob": "**/*.test.ts",
+        "reason": "Test files are not UI rendering source anchors."
+      },
+      {
+        "glob": "**/*.test.tsx",
+        "reason": "Test files are not UI rendering source anchors."
+      },
+      {
+        "glob": "**/*.spec.ts",
+        "reason": "Test files are not UI rendering source anchors."
+      },
+      {
+        "glob": "**/*.spec.tsx",
+        "reason": "Test files are not UI rendering source anchors."
+      }
+    ],
+    "generated": {
+      "schemaVersion": 2,
+      "source": "setup-agent.point-and-edit-path-classifier",
+      "prompt": "same-turn-setup-subagent-v5",
+      "model": "claude-sonnet-4-6",
+      "createdAt": "2026-10-02T00:00:00.000Z",
+      "confidence": 0.95,
+      "explanation": "High confidence: this is a straightforward Next.js 16 App Router project with a clear app/ composition surface, well-separated app-specific components in components/, shadcn/ui vendored primitives in components/ui/, and no ambiguous monorepo or multi-app structure."
+    }
+  }
+}

@@ -1,0 +1,104 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Tooltip",
+    "filePath": "node_modules/recharts/es6/component/Tooltip.js"
+  },
+  "codeProperties": {
+    "animationDuration": {
+      "type": "number",
+      "name": "Animation Duration",
+      "description": "Duration of the tooltip animation in milliseconds.",
+      "defaultValue": 400
+    },
+    "animationEasing": {
+      "type": "string",
+      "name": "Animation Easing",
+      "description": "Easing function for the tooltip animation.",
+      "defaultValue": "ease",
+      "options": [
+        "ease",
+        "ease-in",
+        "ease-out",
+        "ease-in-out",
+        "linear"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "ease": "Ease",
+          "ease-in": "Ease In",
+          "ease-out": "Ease Out",
+          "ease-in-out": "Ease In Out",
+          "linear": "Linear"
+        }
+      }
+    },
+    "trigger": {
+      "type": "string",
+      "name": "Trigger",
+      "description": "The type of event that triggers the tooltip.",
+      "defaultValue": "hover",
+      "options": [
+        "hover",
+        "click"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "hover": "Hover",
+          "click": "Click"
+        }
+      }
+    },
+    "offset": {
+      "type": "number",
+      "name": "Offset",
+      "description": "Gap between the tooltip and the active position.",
+      "defaultValue": 10
+    },
+    "filterNull": {
+      "type": "boolean",
+      "name": "Filter Null",
+      "description": "If true, null and undefined values are filtered out of the payload.",
+      "defaultValue": true
+    },
+    "isAnimationActive": {
+      "type": "string",
+      "name": "Is Animation Active",
+      "description": "Whether tooltip animation is active. 'auto' respects the user's prefers-reduced-motion setting.",
+      "defaultValue": "auto",
+      "options": [
+        "auto",
+        "true",
+        "false"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "auto": "Auto",
+          "true": "True",
+          "false": "False"
+        }
+      }
+    },
+    "includeHidden": {
+      "type": "boolean",
+      "name": "Include Hidden",
+      "description": "Whether to include hidden series in the tooltip payload.",
+      "defaultValue": false
+    },
+    "useTranslate3d": {
+      "type": "boolean",
+      "name": "Use Translate3d",
+      "description": "If true, use CSS translate3d instead of translate for positioning.",
+      "defaultValue": false
+    },
+    "separator": {
+      "type": "string",
+      "name": "Separator",
+      "description": "The separator between the name and value in the tooltip.",
+      "defaultValue": " : "
+    }
+  }
+}

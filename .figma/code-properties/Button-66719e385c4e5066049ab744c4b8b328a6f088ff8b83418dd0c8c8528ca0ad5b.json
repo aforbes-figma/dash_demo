@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Button",
+    "filePath": "node_modules/@base-ui/react/button/index.mjs"
+  },
+  "codeProperties": {
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false
+    },
+    "focusableWhenDisabled": {
+      "type": "boolean",
+      "name": "Focusable When Disabled",
+      "defaultValue": false
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "AccordionItem",
+    "filePath": "node_modules/@base-ui/react/accordion/item/AccordionItem.mjs"
+  },
+  "codeProperties": {
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the accordion item is disabled.",
+      "defaultValue": false
+    }
+  }
+}

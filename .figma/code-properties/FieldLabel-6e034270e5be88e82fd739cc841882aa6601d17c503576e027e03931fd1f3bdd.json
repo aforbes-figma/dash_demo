@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "FieldLabel",
+    "filePath": "node_modules/@base-ui/react/field/label/FieldLabel.mjs"
+  },
+  "codeProperties": {
+    "nativeLabel": {
+      "type": "boolean",
+      "name": "Native Label",
+      "defaultValue": true
+    }
+  }
+}

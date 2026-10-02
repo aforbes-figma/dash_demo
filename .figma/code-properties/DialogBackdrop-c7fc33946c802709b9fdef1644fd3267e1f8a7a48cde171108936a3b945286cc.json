@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "DialogBackdrop",
+    "filePath": "node_modules/@base-ui/react/dialog/backdrop/DialogBackdrop.mjs"
+  },
+  "codeProperties": {
+    "forceRender": {
+      "type": "boolean",
+      "name": "Force Render",
+      "description": "When true, forces the backdrop to render even when nested.",
+      "defaultValue": false
+    }
+  }
+}

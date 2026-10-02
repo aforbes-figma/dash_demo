@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "RadioGroup",
+    "filePath": "node_modules/@base-ui/react/radio-group/index.mjs"
+  },
+  "codeProperties": {
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the entire radio group is disabled.",
+      "defaultValue": false
+    },
+    "readOnly": {
+      "type": "boolean",
+      "name": "Read Only",
+      "description": "Whether the radio group is read-only.",
+      "defaultValue": false
+    },
+    "orientation": {
+      "type": "string",
+      "name": "Orientation",
+      "description": "The axis along which the radio buttons are arranged.",
+      "defaultValue": "vertical",
+      "options": [
+        "horizontal",
+        "vertical"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "horizontal": "Horizontal",
+          "vertical": "Vertical"
+        }
+      }
+    }
+  }
+}

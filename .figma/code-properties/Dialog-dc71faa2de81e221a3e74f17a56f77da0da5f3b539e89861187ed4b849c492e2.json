@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Dialog",
+    "filePath": "node_modules/@base-ui/react/dialog/index.mjs"
+  },
+  "codeProperties": {
+    "defaultOpen": {
+      "type": "boolean",
+      "name": "Default Open",
+      "defaultValue": false
+    },
+    "modal": {
+      "type": "boolean",
+      "name": "Modal",
+      "defaultValue": true
+    },
+    "dismissible": {
+      "type": "boolean",
+      "name": "Dismissible",
+      "defaultValue": true
+    }
+  }
+}

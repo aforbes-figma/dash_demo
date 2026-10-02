@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "TabsPanel",
+    "filePath": "node_modules/@base-ui/react/tabs/panel/TabsPanel.mjs"
+  },
+  "codeProperties": {
+    "keepMounted": {
+      "type": "boolean",
+      "name": "Keep Mounted",
+      "description": "Whether to keep the panel mounted in the DOM when the corresponding tab is inactive.",
+      "defaultValue": false
+    }
+  }
+}

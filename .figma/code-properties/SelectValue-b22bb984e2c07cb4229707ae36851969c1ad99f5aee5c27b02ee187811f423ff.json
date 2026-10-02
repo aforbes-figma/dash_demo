@@ -1,0 +1,13 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "SelectValue",
+    "filePath": "node_modules/@base-ui/react/select/value/SelectValue.mjs"
+  },
+  "codeProperties": {
+    "placeholder": {
+      "type": "string",
+      "name": "Placeholder"
+    }
+  }
+}

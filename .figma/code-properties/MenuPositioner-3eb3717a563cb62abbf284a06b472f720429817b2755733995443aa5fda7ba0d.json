@@ -1,0 +1,62 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "MenuPositioner",
+    "filePath": "node_modules/@base-ui/react/menu/positioner/MenuPositioner.mjs"
+  },
+  "codeProperties": {
+    "positionMethod": {
+      "type": "string",
+      "name": "Position Method",
+      "defaultValue": "absolute",
+      "options": [
+        "absolute",
+        "fixed"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "absolute": "Absolute",
+          "fixed": "Fixed"
+        }
+      },
+      "description": "The CSS positioning method used for the positioner element."
+    },
+    "sideOffset": {
+      "type": "number",
+      "name": "Side Offset",
+      "defaultValue": 0,
+      "description": "The offset distance between the popup and the trigger along the side axis."
+    },
+    "alignOffset": {
+      "type": "number",
+      "name": "Align Offset",
+      "defaultValue": 0,
+      "description": "The offset distance between the popup and the trigger along the alignment axis."
+    },
+    "collisionPadding": {
+      "type": "number",
+      "name": "Collision Padding",
+      "defaultValue": 5,
+      "description": "The minimum distance to keep from viewport edges to avoid collision."
+    },
+    "arrowPadding": {
+      "type": "number",
+      "name": "Arrow Padding",
+      "defaultValue": 5,
+      "description": "Padding between the arrow and the edges of the popup."
+    },
+    "sticky": {
+      "type": "boolean",
+      "name": "Sticky",
+      "defaultValue": false,
+      "description": "Whether to keep the popup in view when the anchor scrolls out of bounds."
+    },
+    "disableAnchorTracking": {
+      "type": "boolean",
+      "name": "Disable Anchor Tracking",
+      "defaultValue": false,
+      "description": "Whether to disable repositioning the popup when the anchor element moves."
+    }
+  }
+}

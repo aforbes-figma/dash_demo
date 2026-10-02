@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Menu",
+    "filePath": "node_modules/@base-ui/react/menu/index.mjs"
+  },
+  "codeProperties": {
+    "defaultOpen": {
+      "type": "boolean",
+      "name": "Default Open",
+      "defaultValue": false
+    },
+    "modal": {
+      "type": "boolean",
+      "name": "Modal",
+      "defaultValue": true
+    },
+    "loop": {
+      "type": "boolean",
+      "name": "Loop",
+      "defaultValue": true
+    },
+    "closeParentOnEsc": {
+      "type": "boolean",
+      "name": "Close Parent On Esc",
+      "defaultValue": true
+    }
+  }
+}

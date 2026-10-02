@@ -1,0 +1,56 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Slider",
+    "filePath": "node_modules/@base-ui/react/slider/index.mjs"
+  },
+  "codeProperties": {
+    "min": {
+      "type": "number",
+      "name": "Min",
+      "description": "The minimum allowed value of the slider.",
+      "defaultValue": 0
+    },
+    "max": {
+      "type": "number",
+      "name": "Max",
+      "description": "The maximum allowed value of the slider.",
+      "defaultValue": 100
+    },
+    "step": {
+      "type": "number",
+      "name": "Step",
+      "description": "The granularity with which the slider can step through values.",
+      "defaultValue": 1
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "description": "Whether the slider is disabled.",
+      "defaultValue": false
+    },
+    "readOnly": {
+      "type": "boolean",
+      "name": "Read Only",
+      "description": "Whether the slider is read-only.",
+      "defaultValue": false
+    },
+    "orientation": {
+      "type": "string",
+      "name": "Orientation",
+      "description": "The axis along which the slider moves.",
+      "defaultValue": "horizontal",
+      "options": [
+        "horizontal",
+        "vertical"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "horizontal": "Horizontal",
+          "vertical": "Vertical"
+        }
+      }
+    }
+  }
+}

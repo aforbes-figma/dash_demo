@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Separator",
+    "filePath": "node_modules/@base-ui/react/separator/index.mjs"
+  },
+  "codeProperties": {
+    "orientation": {
+      "type": "string",
+      "name": "Orientation",
+      "description": "The orientation of the separator.",
+      "defaultValue": "horizontal",
+      "options": [
+        "horizontal",
+        "vertical"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "horizontal": "Horizontal",
+          "vertical": "Vertical"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "AvatarFallback",
+    "filePath": "node_modules/@base-ui/react/avatar/fallback/AvatarFallback.mjs"
+  },
+  "codeProperties": {
+    "delay": {
+      "type": "number",
+      "name": "Delay",
+      "description": "Delay in milliseconds before showing the fallback. Defaults to 0 (no delay).",
+      "defaultValue": 0
+    }
+  }
+}

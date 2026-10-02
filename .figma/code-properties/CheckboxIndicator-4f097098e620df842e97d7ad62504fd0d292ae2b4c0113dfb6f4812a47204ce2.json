@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "CheckboxIndicator",
+    "filePath": "node_modules/@base-ui/react/checkbox/indicator/CheckboxIndicator.mjs"
+  },
+  "codeProperties": {
+    "keepMounted": {
+      "type": "boolean",
+      "name": "Keep Mounted",
+      "description": "Whether to keep the indicator mounted in the DOM when the checkbox is unchecked.",
+      "defaultValue": false
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "MenuLinkItem",
+    "filePath": "node_modules/@base-ui/react/menu/link-item/MenuLinkItem.mjs"
+  },
+  "codeProperties": {
+    "label": {
+      "type": "string",
+      "name": "Label",
+      "description": "The label for the link item, used for typeahead matching."
+    },
+    "closeOnClick": {
+      "type": "boolean",
+      "name": "Close On Click",
+      "defaultValue": false,
+      "description": "Whether the menu closes when this link item is clicked."
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "RadioIndicator",
+    "filePath": "node_modules/@base-ui/react/radio/indicator/RadioIndicator.mjs"
+  },
+  "codeProperties": {
+    "keepMounted": {
+      "type": "boolean",
+      "name": "Keep Mounted",
+      "defaultValue": false,
+      "description": "Whether the indicator remains mounted when the radio button is not selected."
+    }
+  }
+}

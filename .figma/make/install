@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# Install project dependencies. Runs on every project open.
+set -euo pipefail
+
+cd "$(dirname "$0")/../.."
+
+# Use the lockfile for a reproducible install. npm install is idempotent and
+# fast when node_modules is already in sync with package-lock.json.
+npm install --no-fund --no-audit

@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "FieldControl",
+    "filePath": "node_modules/@base-ui/react/field/control/FieldControl.mjs"
+  },
+  "codeProperties": {
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false
+    },
+    "autoFocus": {
+      "type": "boolean",
+      "name": "Auto Focus",
+      "defaultValue": false
+    }
+  }
+}

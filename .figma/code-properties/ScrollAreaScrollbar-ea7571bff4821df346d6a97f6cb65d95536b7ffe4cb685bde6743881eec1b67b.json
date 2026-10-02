@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ScrollAreaScrollbar",
+    "filePath": "node_modules/@base-ui/react/scroll-area/scrollbar/ScrollAreaScrollbar.mjs"
+  },
+  "codeProperties": {
+    "orientation": {
+      "type": "string",
+      "name": "Orientation",
+      "defaultValue": "vertical",
+      "options": [
+        "vertical",
+        "horizontal"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "vertical": "Vertical",
+          "horizontal": "Horizontal"
+        }
+      }
+    },
+    "keepMounted": {
+      "type": "boolean",
+      "name": "Keep Mounted",
+      "defaultValue": false
+    }
+  }
+}

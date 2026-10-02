@@ -1,0 +1,81 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Input",
+    "filePath": "components/ui/input.tsx"
+  },
+  "codeProperties": {
+    "type": {
+      "type": "string",
+      "name": "Type",
+      "options": [
+        "text",
+        "password",
+        "email",
+        "number",
+        "search",
+        "tel",
+        "url",
+        "date",
+        "time",
+        "datetime-local",
+        "month",
+        "week",
+        "color",
+        "file",
+        "hidden",
+        "range",
+        "checkbox",
+        "radio",
+        "submit",
+        "reset",
+        "button"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "text": "Text",
+          "password": "Password",
+          "email": "Email",
+          "number": "Number",
+          "search": "Search",
+          "tel": "Tel",
+          "url": "URL",
+          "date": "Date",
+          "time": "Time",
+          "datetime-local": "Datetime Local",
+          "month": "Month",
+          "week": "Week",
+          "color": "Color",
+          "file": "File",
+          "hidden": "Hidden",
+          "range": "Range",
+          "checkbox": "Checkbox",
+          "radio": "Radio",
+          "submit": "Submit",
+          "reset": "Reset",
+          "button": "Button"
+        }
+      }
+    },
+    "placeholder": {
+      "type": "string",
+      "name": "Placeholder"
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false
+    },
+    "required": {
+      "type": "boolean",
+      "name": "Required",
+      "defaultValue": false
+    },
+    "readOnly": {
+      "type": "boolean",
+      "name": "Read Only",
+      "defaultValue": false
+    }
+  }
+}

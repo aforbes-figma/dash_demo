@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ToastClose",
+    "filePath": "node_modules/@base-ui/react/toast/close/ToastClose.mjs"
+  },
+  "codeProperties": {
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled"
+    },
+    "nativeButton": {
+      "type": "boolean",
+      "name": "Native Button",
+      "defaultValue": true
+    }
+  }
+}

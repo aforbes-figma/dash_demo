@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Tabs",
+    "filePath": "components/ui/tabs.tsx"
+  },
+  "codeProperties": {
+    "orientation": {
+      "type": "string",
+      "name": "Orientation",
+      "defaultValue": "horizontal",
+      "options": [
+        "horizontal",
+        "vertical"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "horizontal": "Horizontal",
+          "vertical": "Vertical"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "MenuRoot",
+    "filePath": "node_modules/@base-ui/react/menu/root/MenuRoot.mjs"
+  },
+  "codeProperties": {
+    "defaultOpen": {
+      "type": "boolean",
+      "name": "Default Open",
+      "defaultValue": false,
+      "description": "Whether the menu is open by default."
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false,
+      "description": "Whether the menu is disabled."
+    },
+    "loopFocus": {
+      "type": "boolean",
+      "name": "Loop Focus",
+      "defaultValue": true,
+      "description": "Whether focus loops around when reaching the end of the list."
+    },
+    "orientation": {
+      "type": "string",
+      "name": "Orientation",
+      "defaultValue": "vertical",
+      "options": [
+        "vertical",
+        "horizontal"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "vertical": "Vertical",
+          "horizontal": "Horizontal"
+        }
+      }
+    },
+    "closeParentOnEsc": {
+      "type": "boolean",
+      "name": "Close Parent On Esc",
+      "defaultValue": false,
+      "description": "Whether pressing Escape closes the parent menu as well."
+    },
+    "highlightItemOnHover": {
+      "type": "boolean",
+      "name": "Highlight Item On Hover",
+      "defaultValue": true,
+      "description": "Whether to highlight menu items on hover."
+    }
+  }
+}

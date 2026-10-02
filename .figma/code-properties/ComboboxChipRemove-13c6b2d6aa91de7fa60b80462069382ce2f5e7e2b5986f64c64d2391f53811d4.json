@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ComboboxChipRemove",
+    "filePath": "node_modules/@base-ui/react/combobox/chip-remove/ComboboxChipRemove.mjs"
+  },
+  "codeProperties": {
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false
+    },
+    "nativeButton": {
+      "type": "boolean",
+      "name": "Native Button",
+      "defaultValue": true
+    }
+  }
+}

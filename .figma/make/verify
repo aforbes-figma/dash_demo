@@ -1,0 +1,24 @@
+#!/usr/bin/env bash
+# Verify the dev server started correctly by polling it until it responds.
+set -euo pipefail
+
+SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
+
+# shellcheck disable=SC1091
+source "$SCRIPT_DIR/env"
+
+PORT="${PORT:-3000}"
+URL="http://localhost:${PORT}"
+
+echo "verify: waiting for ${URL} ..."
+
+for _ in $(seq 1 60); do
+  if curl -fsS -o /dev/null "$URL"; then
+    echo "verify: ${URL} is up"
+    exit 0
+  fi
+  sleep 1
+done
+
+echo "verify: ${URL} did not respond within 60s" >&2
+exit 1

@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "NavigationMenuLink",
+    "filePath": "node_modules/@base-ui/react/navigation-menu/link/NavigationMenuLink.mjs"
+  },
+  "codeProperties": {
+    "active": {
+      "type": "boolean",
+      "name": "Active",
+      "description": "Whether the link is the currently active page.",
+      "defaultValue": false
+    },
+    "closeOnClick": {
+      "type": "boolean",
+      "name": "Close On Click",
+      "description": "Whether clicking the link closes the navigation menu popup.",
+      "defaultValue": false
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "DrawerBackdrop",
+    "filePath": "node_modules/@base-ui/react/drawer/backdrop/DrawerBackdrop.mjs"
+  },
+  "codeProperties": {
+    "forceRender": {
+      "type": "boolean",
+      "name": "Force Render",
+      "description": "Whether to force render the backdrop even when nested inside another dialog.",
+      "defaultValue": false
+    }
+  }
+}

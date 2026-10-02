@@ -1,0 +1,102 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "TooltipPositioner",
+    "filePath": "node_modules/@base-ui/react/tooltip/positioner/TooltipPositioner.mjs"
+  },
+  "codeProperties": {
+    "positionMethod": {
+      "type": "string",
+      "name": "Position Method",
+      "description": "The positioning method used to position the tooltip.",
+      "defaultValue": "absolute",
+      "options": [
+        "absolute",
+        "fixed"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "absolute": "Absolute",
+          "fixed": "Fixed"
+        }
+      }
+    },
+    "side": {
+      "type": "string",
+      "name": "Side",
+      "description": "Which side of the anchor the tooltip should be positioned on.",
+      "defaultValue": "top",
+      "options": [
+        "top",
+        "right",
+        "bottom",
+        "left"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "top": "Top",
+          "right": "Right",
+          "bottom": "Bottom",
+          "left": "Left"
+        }
+      }
+    },
+    "align": {
+      "type": "string",
+      "name": "Align",
+      "description": "How to align the tooltip relative to the anchor along the side axis.",
+      "defaultValue": "center",
+      "options": [
+        "start",
+        "center",
+        "end"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "start": "Start",
+          "center": "Center",
+          "end": "End"
+        }
+      }
+    },
+    "sideOffset": {
+      "type": "number",
+      "name": "Side Offset",
+      "description": "Distance in pixels between the tooltip and the anchor element.",
+      "defaultValue": 0
+    },
+    "alignOffset": {
+      "type": "number",
+      "name": "Align Offset",
+      "description": "Offset along the alignment axis in pixels.",
+      "defaultValue": 0
+    },
+    "collisionPadding": {
+      "type": "number",
+      "name": "Collision Padding",
+      "description": "Padding between the tooltip and the collision boundary.",
+      "defaultValue": 5
+    },
+    "arrowPadding": {
+      "type": "number",
+      "name": "Arrow Padding",
+      "description": "Minimum distance between the arrow and the tooltip corners.",
+      "defaultValue": 5
+    },
+    "sticky": {
+      "type": "boolean",
+      "name": "Sticky",
+      "description": "Whether the tooltip should stick in view while scrolling.",
+      "defaultValue": false
+    },
+    "disableAnchorTracking": {
+      "type": "boolean",
+      "name": "Disable Anchor Tracking",
+      "description": "Whether to disable tracking of the anchor element position.",
+      "defaultValue": false
+    }
+  }
+}

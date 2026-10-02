@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Input",
+    "filePath": "node_modules/@base-ui/react/input/index.mjs"
+  },
+  "codeProperties": {
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false
+    },
+    "readOnly": {
+      "type": "boolean",
+      "name": "Read Only",
+      "defaultValue": false
+    },
+    "required": {
+      "type": "boolean",
+      "name": "Required",
+      "defaultValue": false
+    },
+    "invalid": {
+      "type": "boolean",
+      "name": "Invalid",
+      "defaultValue": false
+    }
+  }
+}

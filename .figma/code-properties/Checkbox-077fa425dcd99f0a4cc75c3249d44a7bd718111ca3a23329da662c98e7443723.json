@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "Checkbox",
+    "filePath": "node_modules/@base-ui/react/checkbox/index.mjs"
+  },
+  "codeProperties": {
+    "defaultChecked": {
+      "type": "boolean",
+      "name": "Default Checked",
+      "defaultValue": false
+    },
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false
+    },
+    "indeterminate": {
+      "type": "boolean",
+      "name": "Indeterminate",
+      "defaultValue": false
+    },
+    "readOnly": {
+      "type": "boolean",
+      "name": "Read Only",
+      "defaultValue": false
+    },
+    "required": {
+      "type": "boolean",
+      "name": "Required",
+      "defaultValue": false
+    }
+  }
+}

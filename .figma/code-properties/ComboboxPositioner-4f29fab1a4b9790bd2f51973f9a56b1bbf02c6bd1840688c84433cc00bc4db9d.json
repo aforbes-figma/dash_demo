@@ -1,0 +1,111 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ComboboxPositioner",
+    "filePath": "node_modules/@base-ui/react/combobox/positioner/ComboboxPositioner.mjs"
+  },
+  "codeProperties": {
+    "side": {
+      "type": "string",
+      "name": "Side",
+      "description": "Which side of the anchor element to position the popup on.",
+      "options": [
+        "top",
+        "right",
+        "bottom",
+        "left"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "top": "Top",
+          "right": "Right",
+          "bottom": "Bottom",
+          "left": "Left"
+        }
+      }
+    },
+    "align": {
+      "type": "string",
+      "name": "Align",
+      "description": "How to align the popup relative to the anchor element.",
+      "options": [
+        "start",
+        "center",
+        "end"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "start": "Start",
+          "center": "Center",
+          "end": "End"
+        }
+      }
+    },
+    "sideOffset": {
+      "type": "number",
+      "name": "Side Offset",
+      "description": "The offset of the popup along its side."
+    },
+    "alignOffset": {
+      "type": "number",
+      "name": "Align Offset",
+      "description": "The offset of the popup along its alignment axis."
+    },
+    "arrowPadding": {
+      "type": "number",
+      "name": "Arrow Padding",
+      "description": "The padding between the arrow and the edges of the popup."
+    },
+    "collisionBoundary": {
+      "type": "string",
+      "name": "Collision Boundary",
+      "description": "The boundary to use for collision detection.",
+      "defaultValue": "clipping-ancestors",
+      "options": [
+        "clipping-ancestors",
+        ""
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "clipping-ancestors": "Clipping Ancestors",
+          "": "Default"
+        }
+      }
+    },
+    "collisionPadding": {
+      "type": "number",
+      "name": "Collision Padding",
+      "description": "The padding between the popup and the collision boundary."
+    },
+    "sticky": {
+      "type": "boolean",
+      "name": "Sticky",
+      "description": "Whether the popup remains sticky to the viewport edge when it would otherwise overflow."
+    },
+    "disableAnchorTracking": {
+      "type": "boolean",
+      "name": "Disable Anchor Tracking",
+      "description": "Whether to disable tracking the anchor element position.",
+      "defaultValue": false
+    },
+    "positionMethod": {
+      "type": "string",
+      "name": "Position Method",
+      "description": "The method used to position the popup.",
+      "options": [
+        "absolute",
+        "fixed"
+      ],
+      "control": {
+        "type": "select",
+        "labels": {
+          "absolute": "Absolute",
+          "fixed": "Fixed"
+        }
+      }
+    }
+  }
+}

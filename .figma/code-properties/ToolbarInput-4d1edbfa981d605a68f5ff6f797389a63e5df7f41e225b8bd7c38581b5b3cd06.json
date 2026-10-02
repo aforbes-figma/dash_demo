@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "componentName": "ToolbarInput",
+    "filePath": "node_modules/@base-ui/react/toolbar/input/ToolbarInput.mjs"
+  },
+  "codeProperties": {
+    "disabled": {
+      "type": "boolean",
+      "name": "Disabled",
+      "defaultValue": false
+    },
+    "focusableWhenDisabled": {
+      "type": "boolean",
+      "name": "Focusable When Disabled",
+      "description": "Whether the input remains focusable when disabled.",
+      "defaultValue": true
+    }
+  }
+}
