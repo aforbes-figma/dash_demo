@@ -18,8 +18,8 @@ import { LayoutDashboardIcon, ListIcon, ChartBarIcon, FolderIcon, UsersIcon, Cam
 
 const data = {
   user: {
-    name: "shadcn",
-    email: "m@example.com",
+    name: "Andrew Forbes",
+    email: "aforbes@figma.com",
     avatar: "/avatars/shadcn.jpg",
   },
   navMain: [
